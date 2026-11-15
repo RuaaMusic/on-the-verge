@@ -253,6 +253,9 @@
   .door{background:var(--panel);border:1px solid var(--line-soft);border-radius:var(--radius);padding:28px}
   .door.band{border-top:4px solid var(--gold)}
   .door.sponsor{border-top:4px solid var(--red)}
+  .door.team{border-top:4px solid var(--blue);margin-top:20px}
+  .door.team .check-list li::before{border-color:var(--blue)}
+  .team-actions{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
   .door h2{font-family:"Bebas Neue",sans-serif;font-weight:400;font-size:2rem;letter-spacing:.03em;margin:0 0 6px;line-height:1}
   .door .d-lede{color:var(--ink-dim);margin:0 0 18px}
   .check-list{list-style:none;margin:0 0 8px;padding:0}
@@ -631,6 +634,19 @@
         </form>
       </article>
     </div>
+
+    <article class="door team" aria-labelledby="team-h">
+      <h2 id="team-h">JOIN THE TEAM</h2>
+      <p class="d-lede">On the Verge with Robbie Rodriguez / RockRadio993 is building its crew. Now accepting applications for: <strong>On-Air Personalities · Account Representatives · Street Team · Promotions &amp; Marketing.</strong></p>
+      <ul class="check-list">
+        <li><b>On-Air Talent</b> — submit an Air Check &amp; Resume c/o Station General Management.</li>
+        <li><b>All other positions</b> — application along with your resume c/o Station General Management.</li>
+        <li><b>Email:</b> <a href="mailto:canalesmusicmanagementgroup@gmail.com">canalesmusicmanagementgroup@gmail.com</a></li>
+      </ul>
+      <div class="team-actions">
+        <a class="btn btn-gold" href="https://ruaamusic.github.io/on-the-verge/On_The_Verge_Employment_Application.pdf" target="_blank" rel="noopener">Download the Employment Application (PDF)</a>
+      </div>
+    </article>
 
     <div class="steps" aria-label="How it works">
       <div class="step"><div class="n">Step 1</div><h3>You reach out</h3><p>Bands send a track; sponsors send a note. Both land with Robbie and Lynn at Canales Music Management Group.</p></div>
